@@ -44,10 +44,10 @@ def webhook_whatsapp():
         #CONECTAMOS A LA BASE DE DATOS
         import mysql.connector
         mydb = mysql.connector.connect(
-          host = "mysql-novato.alwaysdata.net",
-          user = "novato",
-          password = "-jP7NGy3-L-LkcK",
-          database='novato_chat'
+          host = "mysql-xyrus.alwaysdata.net",
+          user = "xyrus",
+          password = "fmv7cqj@kbc9KEM2zvw",
+          database='xyrus_chat'
         )
     
         mycursor = mydb.cursor()
